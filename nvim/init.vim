@@ -11,11 +11,9 @@ Plug 'https://github.com/tribela/vim-transparent'
 Plug 'https://github.com/neoclide/coc.nvim'
 "file"
 Plug 'https://github.com/preservim/nerdtree'
-"latex"
-Plug 'lervag/vimtex'
-Plug 'lervag/vimtex', { 'tag': 'v2.15' }
 call plug#end()
-
+"diff"
+Plug 'sindrets/diffview.nvim'
 "theme"
 :colorscheme moonfly
 
@@ -28,11 +26,5 @@ nnoremap <C-n> :NERDTree<CR>
 nnoremap <C-t> :NERDTreeToggle<CR>
 nnoremap <C-f> :NERDTreeFind<CR>
 
-let g:coc_filetype_map = {'tex': 'latex'}
-
 "nerdtree startup"
-"latex conf"
-let g:vimtex_view_method = 'zathura'
-let g:vimtex_compiler_method = 'latexrun'
-
 "autocmd VimEnter * NERDTree | wincmd p"

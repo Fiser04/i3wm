@@ -17,7 +17,7 @@
 }
 
 configuration {
-    modi: "drun";
+    modi: "drun,window";
     show-icons: true;
     display-drun: "Apps";
 }
