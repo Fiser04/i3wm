@@ -1,7 +1,7 @@
 :set number
 :set relativenumber
 set updatetime=300
-
+:set tabstop=4  
 call plug#begin()
 "theme"
 Plug 'https://github.com/bluz71/vim-moonfly-colors', { 'as': 'moonfly' }
@@ -18,6 +18,12 @@ Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.8' }
 Plug 'https://github.com/preservim/nerdtree'
 "differ"
 Plug 'airblade/vim-gitgutter'
+"c#"
+Plug 'OmniSharp/omnisharp-vim'
+"error check"
+Plug 'dense-analysis/ale'
+"debug"
+Plug 'mfussenegger/nvim-dap'
 call plug#end()
 
 "theme"
@@ -43,3 +49,33 @@ let g:gitgutter_sign_removed = '-'
 highlight SignColumn guibg=NONE
 
 
+lua << EOF
+local dap = require('dap')
+
+dap.adapters.coreclr = {
+  type = 'executable',
+  command = '/usr/bin/netcoredbg/netcoredbg',
+  args = {'--interpreter=vscode'}
+}
+
+dap.configurations.cs = {
+  {
+    type = "coreclr",
+    name = "launch - netcoredbg",
+    request = "launch",
+    program = function()
+        return vim.fn.input('Path to dll', vim.fn.getcwd() .. '/bin/Debug/', 'file')
+    end,
+  },
+}
+EOF
+
+nnoremap <silent> <F5> <Cmd>lua require'dap'.continue()<CR>
+nnoremap <silent> <F10> <Cmd>lua require'dap'.step_over()<CR>
+nnoremap <silent> <F11> <Cmd>lua require'dap'.step_into()<CR>
+nnoremap <silent> <F12> <Cmd>lua require'dap'.step_out()<CR>
+nnoremap <silent> <Leader>b <Cmd>lua require'dap'.toggle_breakpoint()<CR>
+nnoremap <silent> <Leader>B <Cmd>lua require'dap'.set_breakpoint(vim.fn.input('Breakpoint condition: '))<CR>
+nnoremap <silent> <Leader>lp <Cmd>lua require'dap'.set_breakpoint(nil, nil, vim.fn.input('Log point message: '))<CR>
+nnoremap <silent> <Leader>dr <Cmd>lua require'dap'.repl.open()<CR>
+nnoremap <silent> <Leader>dl <Cmd>lua require'dap'.run_last()<CR>

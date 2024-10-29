@@ -26,21 +26,20 @@ exec --no-startup-id dex --autostart --environment i3
 exec --no-startup-id xset s off -dpms
 
 #keyboard
-exec --no-startup-id setxkbmap -option 'grp:alt_shift_toggle' -layout us,cz -variant ,qwerty
+exec --no-startup-id "setxkbmap -option 'grp:alt_shift_toggle' -layout us,cz -variant ,qwerty"
 
 #password dialog
-exec lxpolkit --no-startup-id
-
+exec --no-startup-id lxpolkit 
 # The combination of xss-lock, nm-applet and pactl is a popular choice, so
 # they are included here as an example. Modify as you see fit.
 # Start xss-lock to listen for (systemd, X11 etc) events and run i3lock
-exec --no-startup-id xss-lock -- i3lock -i ~/.config/i3/wallhaven-d6y12l.png 
+exec --no-startup-id "xss-lock -- i3lock -i ~/.config/i3/wallhaven-d6y12l.png" 
 
 # Bind Ctrl-Alt-L to trigger xss-lock via xset
 bindsym Ctrl+Mod1+l exec "xset s activate; xset dpms force off"
 # xss-lock grabs a logind suspend inhibit lock and will use i3lock to lock the
 # screen before suspend. Use loginctl lock-session to lock your screen.
-exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock -i ~/.config/i3/wallhaven-d6y12l.png --nofork
+exec --no-startup-id "xss-lock --transfer-sleep-lock -- i3lock -i ~/.config/i3/wallhaven-d6y12l.png --nofork"
 
 # NetworkManager is the most popular way to manage wireless networks on Linux,
 # and nm-applet is a desktop environment-independent system tray GUI for it.

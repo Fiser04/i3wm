@@ -19,7 +19,8 @@
 configuration {
     modi: "drun,window";
     show-icons: true;
-    display-drun: "Apps";
+    display-drun: "Runner";
+    display-window: "Switcher";
 }
 
 listview {
