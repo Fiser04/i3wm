@@ -1,0 +1,102 @@
+2024/12/28-17:04:30.670 fff8 Reusing MANIFEST /home/fiser/.config/vesktop/sessionData/Local Storage/leveldb/MANIFEST-000001
+2024/12/28-17:04:30.675 fff8 Recovering log #1512
+2024/12/28-17:04:30.676 fff8 Reusing old log /home/fiser/.config/vesktop/sessionData/Local Storage/leveldb/001512.log 
+2024/12/28-17:18:42.407 fff9 Level-0 table #1516: started
+2024/12/28-17:18:42.417 fff9 Level-0 table #1516: 32553 bytes OK
+2024/12/28-17:18:42.419 fff9 Delete type=0 #1512
+2024/12/28-17:18:42.420 fff9 Compacting 4@0 + 1@1 files
+2024/12/28-17:18:42.422 fff9 Generated table #1517@0: 97 keys, 48882 bytes
+2024/12/28-17:18:42.422 fff9 Compacted 4@0 + 1@1 files => 48882 bytes
+2024/12/28-17:18:42.424 fff9 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/12/28-17:18:42.425 fff9 Delete type=2 #1505
+2024/12/28-17:18:42.425 fff9 Delete type=2 #1513
+2024/12/28-17:18:42.425 fff9 Delete type=2 #1516
+2024/12/28-17:18:42.425 fff9 Delete type=2 #1510
+2024/12/28-17:18:42.425 fff9 Delete type=2 #1507
+2024/12/28-17:55:42.407 fff9 Level-0 table #1519: started
+2024/12/28-17:55:42.418 fff9 Level-0 table #1519: 14540 bytes OK
+2024/12/28-17:55:42.420 fff9 Delete type=0 #1515
+2024/12/28-18:33:42.407 fff9 Level-0 table #1521: started
+2024/12/28-18:33:42.417 fff9 Level-0 table #1521: 14602 bytes OK
+2024/12/28-18:33:42.422 fff9 Delete type=0 #1518
+2024/12/28-19:04:37.406 fff9 Level-0 table #1523: started
+2024/12/28-19:04:37.422 fff9 Level-0 table #1523: 17671 bytes OK
+2024/12/28-19:04:37.424 fff9 Delete type=0 #1520
+2024/12/28-19:20:42.406 fff9 Level-0 table #1525: started
+2024/12/28-19:20:42.423 fff9 Level-0 table #1525: 30708 bytes OK
+2024/12/28-19:20:42.425 fff9 Delete type=0 #1522
+2024/12/28-19:20:42.425 fff9 Compacting 4@0 + 1@1 files
+2024/12/28-19:20:42.428 fff9 Generated table #1526@0: 97 keys, 48879 bytes
+2024/12/28-19:20:42.428 fff9 Compacted 4@0 + 1@1 files => 48879 bytes
+2024/12/28-19:20:42.429 fff9 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/12/28-19:20:42.430 fff9 Delete type=2 #1523
+2024/12/28-19:20:42.430 fff9 Delete type=2 #1521
+2024/12/28-19:20:42.430 fff9 Delete type=2 #1525
+2024/12/28-19:20:42.430 fff9 Delete type=2 #1519
+2024/12/28-19:20:42.430 fff9 Delete type=2 #1517
+2024/12/28-19:56:30.955 fff9 Level-0 table #1528: started
+2024/12/28-19:56:30.965 fff9 Level-0 table #1528: 14993 bytes OK
+2024/12/28-19:56:30.966 fff9 Delete type=0 #1524
+2024/12/28-20:25:30.962 fff9 Level-0 table #1530: started
+2024/12/28-20:25:30.964 fff9 Level-0 table #1530: 16013 bytes OK
+2024/12/28-20:25:30.966 fff9 Delete type=0 #1527
+2024/12/28-20:42:30.955 fff9 Level-0 table #1532: started
+2024/12/28-20:42:30.965 fff9 Level-0 table #1532: 30517 bytes OK
+2024/12/28-20:42:30.967 fff9 Delete type=0 #1529
+2024/12/28-21:20:30.956 fff9 Level-0 table #1534: started
+2024/12/28-21:20:30.966 fff9 Level-0 table #1534: 14691 bytes OK
+2024/12/28-21:20:30.977 fff9 Delete type=0 #1531
+2024/12/28-21:20:30.977 fff9 Compacting 4@0 + 1@1 files
+2024/12/28-21:20:30.980 fff9 Generated table #1535@0: 97 keys, 48848 bytes
+2024/12/28-21:20:30.980 fff9 Compacted 4@0 + 1@1 files => 48848 bytes
+2024/12/28-21:20:30.982 fff9 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/12/28-21:20:30.982 fff9 Delete type=2 #1534
+2024/12/28-21:20:30.982 fff9 Delete type=2 #1526
+2024/12/28-21:20:30.982 fff9 Delete type=2 #1530
+2024/12/28-21:20:30.982 fff9 Delete type=2 #1528
+2024/12/28-21:20:30.982 fff9 Delete type=2 #1532
+2024/12/28-21:58:30.955 fff9 Level-0 table #1537: started
+2024/12/28-21:58:30.969 fff9 Level-0 table #1537: 14697 bytes OK
+2024/12/28-21:58:30.976 fff9 Delete type=0 #1533
+2024/12/28-22:17:30.955 fff9 Level-0 table #1539: started
+2024/12/28-22:17:30.957 fff9 Level-0 table #1539: 30511 bytes OK
+2024/12/28-22:17:30.959 fff9 Delete type=0 #1536
+2024/12/28-22:32:30.955 fff9 Level-0 table #1541: started
+2024/12/28-22:32:30.964 fff9 Level-0 table #1541: 31951 bytes OK
+2024/12/28-22:32:30.967 fff9 Delete type=0 #1538
+2024/12/28-23:11:30.954 fff9 Level-0 table #1543: started
+2024/12/28-23:11:30.969 fff9 Level-0 table #1543: 15013 bytes OK
+2024/12/28-23:11:30.971 fff9 Delete type=0 #1540
+2024/12/28-23:11:30.972 fff9 Compacting 4@0 + 1@1 files
+2024/12/28-23:11:30.975 fff9 Generated table #1544@0: 97 keys, 48768 bytes
+2024/12/28-23:11:30.975 fff9 Compacted 4@0 + 1@1 files => 48768 bytes
+2024/12/28-23:11:30.976 fff9 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/12/28-23:11:30.977 fff9 Delete type=2 #1543
+2024/12/28-23:11:30.977 fff9 Delete type=2 #1539
+2024/12/28-23:11:30.977 fff9 Delete type=2 #1541
+2024/12/28-23:11:30.977 fff9 Delete type=2 #1535
+2024/12/28-23:11:30.977 fff9 Delete type=2 #1537
+2024/12/28-23:40:30.954 fff9 Level-0 table #1546: started
+2024/12/28-23:40:30.956 fff9 Level-0 table #1546: 34660 bytes OK
+2024/12/28-23:40:30.958 fff9 Delete type=0 #1542
+2024/12/29-00:18:30.953 fff9 Level-0 table #1548: started
+2024/12/29-00:18:30.964 fff9 Level-0 table #1548: 14587 bytes OK
+2024/12/29-00:18:30.967 fff9 Delete type=0 #1545
+2024/12/29-00:56:30.955 fff9 Level-0 table #1550: started
+2024/12/29-00:56:30.966 fff9 Level-0 table #1550: 15019 bytes OK
+2024/12/29-00:56:30.968 fff9 Delete type=0 #1547
+2024/12/29-01:32:30.954 fff9 Level-0 table #1552: started
+2024/12/29-01:32:30.964 fff9 Level-0 table #1552: 36878 bytes OK
+2024/12/29-01:32:30.966 fff9 Delete type=0 #1549
+2024/12/29-01:32:30.966 fff9 Compacting 4@0 + 1@1 files
+2024/12/29-01:32:30.968 fff9 Generated table #1553@0: 97 keys, 48800 bytes
+2024/12/29-01:32:30.968 fff9 Compacted 4@0 + 1@1 files => 48800 bytes
+2024/12/29-01:32:30.970 fff9 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/12/29-01:32:30.970 fff9 Delete type=2 #1550
+2024/12/29-01:32:30.970 fff9 Delete type=2 #1544
+2024/12/29-01:32:30.970 fff9 Delete type=2 #1548
+2024/12/29-01:32:30.971 fff9 Delete type=2 #1552
+2024/12/29-01:32:30.971 fff9 Delete type=2 #1546
+2024/12/29-02:06:30.957 fff9 Level-0 table #1555: started
+2024/12/29-02:06:30.967 fff9 Level-0 table #1555: 17446 bytes OK
+2024/12/29-02:06:30.968 fff9 Delete type=0 #1551

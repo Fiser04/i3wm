@@ -1,0 +1,16 @@
+{
+    "com.github.soumiknandi.ulauncher-stream-anime": {
+        "id": "com.github.soumiknandi.ulauncher-stream-anime",
+        "url": "https://github.com/soumiknandi/ulauncher-stream-anime/",
+        "updated_at": "2024-12-28T14:38:37.714262",
+        "last_commit": "a6850460c6fd5d37a01b58dccef617e6dfd61583",
+        "last_commit_time": "2024-10-05T18:10:16"
+    },
+    "com.github.abhishekmj303.ulauncher-playerctl": {
+        "id": "com.github.abhishekmj303.ulauncher-playerctl",
+        "url": "https://github.com/abhishekmj303/ulauncher-playerctl",
+        "updated_at": "2024-12-28T15:21:17.079923",
+        "last_commit": "5f52e6c949ee9793ba60b5385df4744b134c3369",
+        "last_commit_time": "2023-06-23T15:13:13"
+    }
+}
