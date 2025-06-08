@@ -26,13 +26,15 @@ exec --no-startup-id dex --autostart --environment i3
 exec --no-startup-id xset s off -dpms
 
 #color
-exec --no-startup-id gammastep -c ~/.config/gammastep/config.ini
+exec --no-startup-id gammastep -c ~/.config/gammastep/config.ini -m randr
 #keyboard
 exec --no-startup-id "setxkbmap -option 'grp:alt_shift_toggle' -layout us,cz -variant ,qwerty"
 #launcher
 exec --no-startup-id ulauncher
 #password dialog
 exec --no-startup-id lxpolkit 
+#autolock
+exec --no-startup-id xautolock -time 60 -locker "systemctl suspend"
 # The combination of xss-lock, nm-applet and pactl is a popular choice, so
 # they are included here as an example. Modify as you see fit.
 # Start xss-lock to listen for (systemd, X11 etc) events and run i3lock
@@ -90,6 +92,7 @@ bindsym $mod+t exec alacritty
 bindsym $mod+o exec obsidian
 # kill focused window
 bindsym $mod+Escape kill
+bindsym $mod+q kill
 
 # start dmenu (a program launcher)
 #bindsym $mod+Tab exec --no-startup-id rofi -show drun
@@ -232,6 +235,9 @@ default_floating_border pixel 0
 
 gaps inner 10
 gaps top -5
+
+for_window [class="protonvpn-app"] floating enable
+
 
 ## Screenshots
 bindsym Print exec --no-startup-id maim -o "/home/$USER/Pictures/$(date).png"
